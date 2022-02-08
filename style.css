@@ -4,6 +4,8 @@
 body{
 	background:gray;
 	font-family:'Poppins', sans-serif;
+	margin: 10px;
+	padding:12px;
 }
 nav{
 	float: right;
@@ -89,5 +91,27 @@ p{
        
 #slider-image-3:target ~ .image-holder{
     left: -1600px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,td,th{
+  border: 2px solid green;
+}
+
+th{
+  text-align:center;
+  background:#ADE28A;
+}
+
+td {
+  text-align: left;
+  background: #FFE5B4;
+}
+
+th,td{
+  padding: 16px;
 }
 
