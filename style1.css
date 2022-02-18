@@ -1,0 +1,68 @@
+.banner{
+	border-radius: 15px;
+	width: 80%;
+	padding-top: 15px
+	margin-left:auto;
+	margin-right: auto;
+	display: block;
+}
+.banner img{
+	border: 2px dashed black
+}
+.center{
+	text-align: center;
+}
+.detail.row::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+body{
+	background:gray;
+	font-family:'Poppins', sans-serif;
+	margin: 10px;
+	padding:12px;
+}
+nav{
+	float: right;
+}
+nav a{
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color:green;
+}
+.container ul li{
+	display: inline-block;
+	padding: 10px
+	font-size:18px;
+}
+.container{
+	clear: both;
+	overflow:auto;
+}
+ul{
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+.logo img{
+	border-radius: 15px;
+	float:left;
+	height: 100px;
+	width:100px;
+}
+.goalsImage img{
+	height: 580px;
+}
+.detail .column{
+	float: left;
+	width: 45%;
+	margin: 15px;
+	padding: 15px;
+	height: 580px;
+}
+.detail h3{
+	text-align: center;
+}
